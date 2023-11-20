@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['*']
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-CSRF_TRUSTED_ORIGINS = ['https://testapp3.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://test-ggntu.up.railway.app/']
 # Application definition
 
 INSTALLED_APPS = [
